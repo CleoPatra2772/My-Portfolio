@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import  GrayGalaxy  from "../../assets/img/GrayGalaxy.png";
-import './Banner.styles.css';
+import './banner.styles.css';
 
 export const Banner =() =>{
     const [loopNum, setLoopNum] = useState(0);

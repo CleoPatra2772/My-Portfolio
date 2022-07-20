@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
-import './NavBar.styles.css';
+import './navbar.styles.css';
 
 
 export const NavBar = () =>{
@@ -48,6 +48,11 @@ export const NavBar = () =>{
                 >Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active-navbar-link': 'navbar-link'}
                 onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                
+                <Nav.Link href="#About Me" className={activeLink === 'about me' ? 'active-navbar-link': 'navbar-link'}
+                onClick={() => onUpdateActiveLink('about me')}
+                >About Me</Nav.Link>
+                
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
