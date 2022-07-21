@@ -13,8 +13,8 @@ const About =() =>{
         <Container>
         <Col>
         <Row>
-        <div className="about-container">
-        <h1 className="about-me">About Me</h1>
+        <div className="about-container" id="about me">
+        <h2 className="about-me">About Me</h2>
         <img className="photo-me" src ={Me}/>
         <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
         Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.

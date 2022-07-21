@@ -1,34 +1,83 @@
+import { Container, Nav, Tab, Col, Row } from "react-bootstrap";
+import proImg1 from "../../assets/img/projects/proImg1.png";
+import proImg2 from "../../assets/img/projects/proImg2.png";
+import proImg3 from "../../assets/img/projects/proImg3.png";
+import proImg4 from "../../assets/img/projects/proImg4.png";
+import { ProjectCard } from "../project-card/project-card.component";
+import './projects.styles.css';
+
 export const Projects =() =>{
 
     const projects =[
         {
-        title: "E-commerce store", 
+        title: "E-commerce Store", 
         description: "Built with Redux saga and typescript",
-        //imgUrl: proImg1,
-        },
-
-        {
-        title: "DSurve", 
-        description: "DCurve mockup",
-        //imgUrl: proImg2,
+        imgUrl: proImg1,
         },
 
         {
         title: "OpenD", 
-        description: "OpenSea mockup, built using Bootstrap, React and motoko",
-        //imgUrl: proImg3,
+        description: "OpenSea mockup: A site you can mint, list and buy NFTs",
+        imgUrl: proImg2,
+        },
+
+        {
+        title: "DSurv", 
+        description: "Curve mockup: Claim your Cleo Tokens today! ",
+        imgUrl: proImg4,
         },
 
         {
         title: "To-Do List", 
         description: "A todo-list built using Epress.js, and MongoDB",
-        //imgUrl: proImg4,
+        imgUrl: proImg3,
             },
 
 
     ];
     return(
         <section className="project" id="projects">
+        <Container>
+            <Row>
+                <Col>
+                    <h2>Projects</h2>
+                    <p>Here are some of my projects</p>
+                    <Tab.Container id="project-tabs" defaultActiveKey="first">
+                    <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav.Item>
+                            <Nav.Link eventKey="first">Tab One</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="third" >Tab Three</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+                    <Tab.Content>
+                    <Tab.Pane eventKey="first">
+                    <Row>
+                    {
+                        projects.map((project, index) =>{
+                            return(
+                                <ProjectCard key={index} 
+                                    {...project}
+                                />
+                            )
+                        })
+                    }
+                    </Row>
+                    </Tab.Pane>
+
+                    <Tab.Pane eventKey="second">Loren Ipsum </Tab.Pane>
+                    <Tab.Pane eventKey="third">Loren Ipsum </Tab.Pane>
+
+                    </Tab.Content>
+                    </Tab.Container>
+                </Col>
+            </Row>
+        </Container>
+        <img className="background-image-right" src={''}></img>
 
         </section>
     );
