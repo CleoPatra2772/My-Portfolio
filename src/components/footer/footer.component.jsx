@@ -13,7 +13,7 @@ function Footer() {
           <Row>
             <Col>
               <p>
-                This page is created by Cleo. The beautiful space images are from the amazing James Webb Space Telescope from NASA.
+                This page is created by Cleo. The beautiful space images are from the NASA's James Webb Space Telescope.
               </p>
             </Col>
             <Col>
