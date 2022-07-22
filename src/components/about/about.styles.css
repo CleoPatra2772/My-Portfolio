@@ -5,10 +5,11 @@ h3, h4{
 ul {
     text-align: center;
     list-style-position: inside;
+    list-style-type: none;
 }
 
 .about-container{
-    padding: 50px 0px;
+    padding: 100px 0px;
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;

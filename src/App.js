@@ -5,6 +5,7 @@ import { Banner } from './components/banner/banner.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/about/about.component';
 import { Projects } from './components/projects/projects.component';
+import { Contact } from './components/contact/contact.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     
     <About />
     <Projects/>
+    <Contact />
     
     
   

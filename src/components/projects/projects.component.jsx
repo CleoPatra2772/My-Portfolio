@@ -11,25 +11,25 @@ export const Projects =() =>{
     const projects =[
         {
         title: "E-commerce Store", 
-        description: "Built with Redux saga and typescript",
+        description: "Online clothing store that utilizes Firebase. It is built with React, graphQL. Then, upgraded using SASS, Redux-sagas, typescript.",
         imgUrl: proImg1,
         },
 
         {
         title: "OpenD", 
-        description: "OpenSea mockup: A site you can mint, list and buy NFTs",
+        description: "OpenSea mockup: A site you can mint, list and buy NFTs. Built using React and a smart contract language- Motoko",
         imgUrl: proImg2,
         },
 
         {
         title: "DSurv", 
-        description: "Curve mockup: Claim your Cleo Tokens today! ",
+        description: "Curve mockup: Claim your Cleo Tokens today! Built using React and a smart contract language- Motoko",
         imgUrl: proImg4,
         },
 
         {
         title: "To-Do List", 
-        description: "A todo-list built using Epress.js, and MongoDB",
+        description: "A todo-list built using JavaScript, Epress.js and MongoDB",
         imgUrl: proImg3,
             },
 
