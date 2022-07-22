@@ -16,17 +16,19 @@ const About =() =>{
         <div className="about-container" id="about me">
         <h2 className="about-me">About Me</h2>
         <img className="photo-me" src ={Me}/>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-        Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.
-        Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.
+        <p> Hello World. This is Cleo! I graduated with a Bachelor's degree in Biology, but I felt like something isn't right.
+        Luckily, I found the right puzzle. Thus begun my journey as a self-taught web developer... </p>
+       <p>
+        Learning web development is a fun experience espcially for someone like me, who enjoys patterns and logic.
+        Also, I am not a procrastinator at all.
+        When it comes to a project, I plan it out, I do it, revise it and finish it! Here are two more things about me: 
         </p>
 
         <div className="hobbies">
         <div className="working-out">
         <img className="photo-workout" src ={Workout}/>
             <h3>Workout</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-        Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.
+            <p>I have been working out for over nine years now. It is a great way for me to relax and recharge.
         </p>
         
         </div>
@@ -36,8 +38,7 @@ const About =() =>{
         <img className="photo-classical"  src ={Classic}/>
             <h3>Classical Music</h3>
             
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-        Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.
+            <p>This is a hobby that I picked up when I was progamming. Coding while listening to classical music feels like time traveling.
         </p>
         
         </div>

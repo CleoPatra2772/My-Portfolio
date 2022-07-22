@@ -9,12 +9,13 @@ ul {
 }
 
 .about-container{
-    padding: 100px 0px;
+    padding: 60px 20px 0px 0px;
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
+   
 
 }
 
@@ -51,13 +52,17 @@ ul {
 }
 
 .working-out, .classical-music, .skill-container{
-padding-top: 80px;
+padding-top: 150px;
 }
 
 .skills{
-    padding: 20px;
+    padding: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.skill-container{
+    padding: 150px 0;
 }
 
 

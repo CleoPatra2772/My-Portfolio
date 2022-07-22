@@ -52,7 +52,13 @@ export const Banner =() =>{
             <Col xs={12} md={6} xl={7}>
             {/* <span className="tagline">Welcome to my portfolio</span> */}
             <h1>{`Hello. I'm Cleo`}<span className="wrap"> {text}</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>When I first looked at the pictures taken by the James Webb Space Telescope I was amazed by the universe and technology.
+            This brings me back to the day when I started my computer science course. I couldn't stop wondering, how did people come up and design such an intricate system. 
+            Computers, internet, blockchains are so <em>magical</em> and wonderful. I aim to make applications with simplicity and purpose.
+
+            
+            
+            </p>
             <button className="vvd" type="button" class="btn btn-secondary" onClick={() => console.log('connect')}>
                        <a download href={resume}>Download My Resume </a> 
                         <ArrowRightCircle size={25}/>
