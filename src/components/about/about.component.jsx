@@ -70,6 +70,7 @@ const About =() =>{
                 <li>MongoDB</li>
                 <li>Motoko</li>
                 <li>Git</li>
+                <li>GraphQL</li>
                 <li>Firebase</li>
             </ul>
             </div>
