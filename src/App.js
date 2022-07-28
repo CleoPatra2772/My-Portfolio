@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { NavBar } from './components/navbar/navbar.component';
+import { NavigationBar } from './components/navbar/navbar.component';
 import { Banner } from './components/banner/banner.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/about/about.component';
@@ -11,7 +11,7 @@ import { Footer } from './components/footer/footer.component';
 function App() {
   return (
     <div className="App">
-    <NavBar/>
+    <NavigationBar/>
     <Banner />
     
     <About />

@@ -7,7 +7,7 @@ import Logo from "../../assets/img/logo.png";
 import './navbar.styles.css';
 
 
-export const NavBar = () =>{
+export const NavigationBar = () =>{
     const [activeLink, setActivelink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
@@ -74,4 +74,4 @@ export const NavBar = () =>{
 
 
 
-}
+};
