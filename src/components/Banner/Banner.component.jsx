@@ -3,7 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import  GrayGalaxy  from "../../assets/img/GrayGalaxy.png";
 import './banner.styles.css';
-import resume from '../../assets/resume/CleoGaoResumeSample.docx';
+import resume from '../../assets/resume/CleoG.Resume.docx';
 
 export const Banner =() =>{
     const [loopNum, setLoopNum] = useState(0);
@@ -54,7 +54,7 @@ export const Banner =() =>{
             <h1>{`Hello. I'm Cleo`}<span className="wrap"> {text}</span></h1>
             <p>When I first looked at the pictures taken by the James Webb Space Telescope I was amazed by the universe and technology.
             This brings me back to the day when I started my computer science course. I couldn't stop wondering, how did people come up and design such an intricate system. 
-            Computers, internet, blockchains are so <em>magical</em> and wonderful. So I decided to be a developer, to design web applications that are functional and efficient .
+            Computers, internet, blockchains are so <em>magical</em> and wonderful. So I decided to be a developer, I aim to design web applications that are functional and efficient .
 
             
             

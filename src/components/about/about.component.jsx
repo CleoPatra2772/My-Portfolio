@@ -17,11 +17,10 @@ const About =() =>{
         <h2 className="about-me">About Me</h2>
         <img className="photo-me" src ={Me}/>
         <p> Hello World. This is Cleo! I graduated with a Bachelor's degree in Biology, but I felt like something isn't right.
-        Luckily, I found the right puzzle. Thus begun my journey as a self-taught web developer... </p>
+        Luckily, I found the right puzzle. Thus began my journey as a self-taught web developer... </p>
        <p>
         Learning web development is a fun experience espcially for someone like me, who enjoys patterns and logic.
-        Also, I am not a procrastinator at all.
-        When it comes to a project, I plan it out, I do it, revise it and finish it! Here are two more things about me: 
+        Here are two more things about me: 
         </p>
 
         <div className="hobbies">
@@ -38,7 +37,7 @@ const About =() =>{
         <img className="photo-classical"  src ={Classic}/>
             <h3>Classical Music</h3>
             
-            <p>This is a hobby that I picked up when I was progamming. Coding while listening to classical music feels like time traveling.
+            <p>This is a hobby I picked up when I was coding and working on projects. I enjoy what I do :)
         </p>
         
         </div>

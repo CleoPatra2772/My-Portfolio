@@ -45,7 +45,7 @@ export const Projects =() =>{
 
         {
         title: "Crypto-Altas", 
-        description: "Checkout the latest cryptocurrencies stats and news. This website is built with html, bootstrap, and requests data using axios ",
+        description: "Checkout the latest cryptocurrencies stats and news. This website is built with html, bootstrap, and data is fetched using axios ",
         imgUrl: cryptoAtlas,
             },
               
