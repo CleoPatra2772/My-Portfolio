@@ -3,7 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import  GrayGalaxy  from "../../assets/img/GrayGalaxy.png";
 import './banner.styles.css';
-import resume from '../../assets/resume/CleoG.Resume.docx';
+import resume from '../../assets/resume/CleoG.Resume1.docx';
 
 export const Banner =() =>{
     const [loopNum, setLoopNum] = useState(0);
